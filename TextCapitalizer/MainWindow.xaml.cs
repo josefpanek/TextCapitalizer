@@ -27,9 +27,7 @@ namespace TextCapitalizer
 
         private void buttonCapitalize_Click(object sender, RoutedEventArgs e)
         {
-            string inputText = textBoxInput.Text;
-
-            textBoxInput.Text = inputText.ToUpper();
+            textBoxInput.Text = textBoxInput.Text.ToUpper();
         }
     }
 }

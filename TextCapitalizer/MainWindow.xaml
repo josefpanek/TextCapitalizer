@@ -11,8 +11,8 @@
             <RowDefinition/>
             <RowDefinition/>
         </Grid.RowDefinitions>
-        <Button x:Name="buttonCapitalize" Content="Capitalize the Text" HorizontalAlignment="Center" Margin="0,0,0,0" Grid.Row="1" VerticalAlignment="Center" Width="120" Height="25" Click="buttonCapitalize_Click"/>
-        <TextBox x:Name="textBoxInput" HorizontalAlignment="Center" Margin="0,0,0,0" TextWrapping="Wrap" Text="Insert Text for Capitalization" VerticalAlignment="Center" Width="500"/>
+        <Button x:Name="buttonCapitalize" Content="Capitalize the Text" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Width="120" Height="25" Click="buttonCapitalize_Click"/>
+        <TextBox x:Name="textBoxInput" Text="" VerticalAlignment="Center" Height="18" Grid.Row="0" Margin="30,0,30,0"/>
 
     </Grid>
 </Window>
